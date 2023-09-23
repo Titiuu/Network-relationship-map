@@ -5,7 +5,7 @@ tfidf = analyse.extract_tags
 import csv
 from gensim.models import word2vec, keyedvectors
 
-
+# changes
 stopwords = ['吕州', '林城', '银行卡', '安置费', '任重道远',
              '孤鹰岭', '阿庆嫂', '岳飞', '养老院', '老总']
 replace_words = {'师母': '吴慧芬', '陈老': '陈岩石', '老赵': '赵德汉', '达康': '李达康', '高总': '高小琴',

@@ -16,3 +16,4 @@ content1 = re.sub(r'<[^>]+>', '', content)
 f = open('drama.txt', 'w', encoding='utf-8') #直接用open打开会报错，需要指定编码方式
 f.write(content1)
 f.close()
+# changes

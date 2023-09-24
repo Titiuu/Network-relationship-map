@@ -8,7 +8,7 @@ url = "https://baike.baidu.com/item/%E4%BA%BA%E6%B0%91%E7%9A%84%E5%90%8D%E4%B9%8
 response = urllib.request.urlopen(url)
 con = response.read()
 #使用beautifulsoup中的html解析器
-cont = BeautifulSoup(con,"html.parser")
+cont = BeautifulSoup(con,"html.parser") #beautifulsoup是一个解析器，可以特定的解析出内容
 content = cont.find_all('ul', {'id':'dramaSerialList'})
 content = str(content)
 ##去掉HTML标签
